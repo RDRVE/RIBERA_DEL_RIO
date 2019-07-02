@@ -188,6 +188,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Img\baner1.jpg" />
+    <Content Include="Img\baner2.jpg" />
+    <Content Include="Img\baner3.jpg" />
+    <Content Include="Img\campamento.png" />
+    <Content Include="Img\clubresort.png" />
+    <Content Include="Img\eventos.png" />
+    <Content Include="Img\fullday.png" />
+    <Content Include="Img\logordr.PNG" />
+    <Content Include="Img\pfullday.jpg" />
+    <Content Include="Img\recreacion.png" />
+    <Content Include="Img\restaurant.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -235,6 +246,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\SwapPart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

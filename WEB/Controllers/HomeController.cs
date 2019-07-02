@@ -26,5 +26,12 @@ namespace WEB.Controllers
 
             return View();
         }
+
+        public ActionResult SwapPart()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

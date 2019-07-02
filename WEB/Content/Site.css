@@ -1,8 +1,7 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿
+.mt-6 {
+    margin-top: 3.8rem !important;
 }
-
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -21,4 +20,64 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.bg-business {
+    background-color: #206e98de;
+}
+
+.category-titulo {
+    position: relative;
+    top: 70px;
+    display: grid;
+    border-radius: 0px 6px 6px 0;
+    left: 0px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    background-color: #070707c9;
+    border: 1px solid #efb810;
+    color: #ffffff;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px ;
+    padding: 12px 0px;
+}
+
+.category-body-img {
+    border: 1px solid #efb810;
+    box-shadow: 1px 2px 13px 0px #1d1c1c;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.category-body {
+    text-align: center;
+    margin-top: 28px;
+    text-align: justify;
+    /*padding: 0 35px 0 35px;*/
+    font-size: 14px;
+}
+
+.category-body span {
+    float: left;
+    font-size: 3em;
+    line-height: 1;
+    margin-right: .6rem;
+}
+
+footer p {
+    padding: 0px;
+    margin: 0px;
+    color: #6c757d !important;
+    font-size: 14px;
+}
+
+.package-title {
+    color: #206e98;
+}
+
+.text-through {
+    text-decoration: line-through;
 }
