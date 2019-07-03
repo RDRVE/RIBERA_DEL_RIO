@@ -33,5 +33,16 @@ namespace WEB.Controllers
 
             return View();
         }
+
+        public ActionResult SwapPartDetail(int? id)
+        {
+            if (id == null)
+            {
+                return RedirectToAction("SwapPart");
+            }
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

@@ -16,14 +16,30 @@
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
-input,
+/*input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 300px;
+}*/
+
+.form-control-bs {
+    width: 48%;
+    display: inline-block;
+    height: 40px;
+    margin: 3px;
+    /*border-radius: 19px;*/
+    padding: 0px 11px;
+    border: 1px solid #007bff;
+    font-weight: 500;
 }
 
 .bg-business {
     background-color: #206e98de;
+}
+
+.carousel-image {
+    height: 600px !important;
+    object-fit: cover !important;
 }
 
 .category-titulo {
@@ -80,4 +96,9 @@ footer p {
 
 .text-through {
     text-decoration: line-through;
+}
+
+
+.title-item {
+    font-weight: 700;
 }

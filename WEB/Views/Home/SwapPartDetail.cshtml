@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "SwapPartDetail";
+}
+<section class="mt-6">
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col-lg-6">
+                <div>
+                    <img src="~/Img/pfullday.jpg" alt="Full Day" class="d-block w-100" />
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="text-center">Paquete Full Day</h1>
+                <p>Precio: <span class="title-item">S/. 35.00</span></p>
+                <div>
+                    <form action="/" method="post">
+                        <div class="row"><div class="col-12"><p>Ingrese sus datos.</p></div></div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="Name" value="" placeholder="Nombres" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="Phone" value="" placeholder="Celular" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <select type="text" name="Date" required class="form-control">
+                                        <option value="">Seleccione la fecha</option>
+                                        <option value="">Sabado 22 de Junio</option>
+                                        <option value="">Domingo 23 de Junio</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="number" name="NumberPeople" value="1" placeholder="Numero de Personas" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="checkbox" id="cbox" name="IsCodePromotional" value="Codigo" style="width:auto; margin: 10px;" required /> Activar Codigo Promocional
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="CodePromotional" value="" placeholder="Ingrese codigo " required class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <input type="submit" value="Reservar Tour Ahora" class="btn btn-outline-success"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-lg-6">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <h2 class="text-center">Puntos de Abordo</h2>
+                    <div>
+                        <ul>
+                            <li><span class="title-item">6:00 am. Plaza Norte</span> Punto de abordo en Plaza Norte.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <h2 class="text-center">Descripción</h2>
+                    <div>
+                        <ul>
+                            <li>Delicioso Box Lunch incluido (Desayuno).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
