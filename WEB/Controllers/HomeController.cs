@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WEB.Data;
 
 namespace WEB.Controllers
 {
@@ -29,9 +30,9 @@ namespace WEB.Controllers
 
         public ActionResult SwapPart()
         {
-            ViewBag.Message = "Your contact page.";
+            SwapServices swapServices = new SwapServices(); 
 
-            return View();
+            return View(swapServices.GetSwaps());
         }
 
         public ActionResult SwapPartDetail(int? id)
